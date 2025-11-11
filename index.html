@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sportify Shop | Online Sports Shop for Gear, Equipment & Apparel</title>
+	<meta name="description" content="Sportify Shop is your online sports shop for premium gear, equipment, and apparel. Shop football, basketball, running, fitness, tennis, and cycling products with fast shipping." />
+	<meta name="keywords" content="sports shop, online sports store, sports gear, sports equipment, sports apparel, football, basketball, running, fitness, tennis, cycling" />
+	<meta name="author" content="Sportify Shop" />
+	<meta name="robots" content="index, follow" />
+	<link rel="canonical" href="https://www.sportifyshop.example/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Sportify Shop" />
+	<meta property="og:title" content="Sportify Shop | Online Sports Shop for Gear, Equipment & Apparel" />
+	<meta property="og:description" content="Shop premium sports gear, equipment, and apparel for football, basketball, running, fitness, tennis, and cycling." />
+	<meta property="og:url" content="https://www.sportifyshop.example/" />
+	<meta property="og:image" content="https://www.sportifyshop.example/image/pexels-pixabay-163452.jpg" />
+	<meta property="og:image:alt" content="Sportify Shop - sports gear and equipment" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Sportify Shop | Online Sports Shop for Gear, Equipment & Apparel" />
+	<meta name="twitter:description" content="Shop premium sports gear, equipment, and apparel for football, basketball, running, fitness, tennis, and cycling." />
+	<meta name="twitter:image" content="https://www.sportifyshop.example/image/pexels-pixabay-163452.jpg" />
+	<meta name="twitter:site" content="@sportifyshop" />
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Sportify Shop",
+		"url": "https://www.sportifyshop.example/",
+		"logo": "https://www.sportifyshop.example/image/pexels-pixabay-163452.jpg",
+		"sameAs": [
+			"https://www.instagram.com/sid_sez/",
+			"https://www.linkedin.com/in/siddharth-singh-sez",
+			"https://www.youtube.com/@siddharthsingh4550"
+		]
+	}
+	</script>
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- Animated Background Decorations -->
+	<div class="bg-decoration">
+		<div class="floating-shape shape-1"></div>
+		<div class="floating-shape shape-2"></div>
+		<div class="floating-shape shape-3"></div>
+		<div class="floating-shape shape-4"></div>
+		<div class="gradient-orb orb-1"></div>
+		<div class="gradient-orb orb-2"></div>
+		<div class="gradient-orb orb-3"></div>
+	</div>
+	<header class="site-header">
+		<div class="container header-inner">
+			<h1 class="brand">Sportify Shop</h1>
+			<nav class="site-nav" aria-label="Primary">
+				<a href="index.html">Home</a>
+				<a href="#about">About Us</a>
+				<a href="#contact">Contact Us</a>
+			</nav>
+			<div class="header-actions">
+				<button id="themeToggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark theme">
+					<span class="theme-icon">☀️</span>
+				</button>
+				<input id="searchInput" type="search" placeholder="Search sports items..." aria-label="Search products" />
+				<a id="cartButton" class="cart-button" href="cart.html" aria-label="Open cart page">
+					<span class="cart-icon">🛒</span>
+					<span id="cartCount" class="cart-count">0</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero-slideshow" aria-label="Homepage slideshow">
+			<div class="container">
+				<div class="slides" id="heroSlides">
+					<div class="slide is-active"><img src="image/pexels-pixabay-163452.jpg" alt="Slideshow image 1"></div>
+					<div class="slide"><img src="image/pexels-pixabay-209977.jpg" alt="Slideshow image 2"></div>
+					<div class="slide"><img src="image/pexels-timmossholder-1080882.jpg" alt="Slideshow image 3"></div>
+				</div>
+				<div class="hero-overlay">
+					<h1 class="hero-title">Gear up. Game on.</h1>
+					<p class="hero-subtitle">Find the best sports equipment and apparel.</p>
+					<a href="#products" class="hero-cta">Shop Now</a>
+				</div>
+				<button class="nav prev" id="heroPrev" aria-label="Previous slide">‹</button>
+				<button class="nav next" id="heroNext" aria-label="Next slide">›</button>
+				<div class="dots" id="heroDots" aria-label="Slide navigation"></div>
+			</div>
+		</section>
+
+		<section class="categories-section">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title-large">Shop by Category</h2>
+					<div class="decorative-line"></div>
+				</div>
+				<div class="categories-grid">
+					<div class="category-card">
+						<div class="category-icon">⚽</div>
+						<h3>Football</h3>
+						<p>Professional footballs and gear</p>
+					</div>
+					<div class="category-card">
+						<div class="category-icon">🏀</div>
+						<h3>Basketball</h3>
+						<p>High-quality basketballs</p>
+					</div>
+					<div class="category-card">
+						<div class="category-icon">🎾</div>
+						<h3>Tennis</h3>
+						<p>Rackets and accessories</p>
+					</div>
+					<div class="category-card">
+						<div class="category-icon">👟</div>
+						<h3>Running</h3>
+						<p>Shoes and running gear</p>
+					</div>
+					<div class="category-card">
+						<div class="category-icon">💪</div>
+						<h3>Fitness</h3>
+						<p>Gym equipment and accessories</p>
+					</div>
+					<div class="category-card">
+						<div class="category-icon">🚴</div>
+						<h3>Cycling</h3>
+						<p>Cycling gear and helmets</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="features-section">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title-large">Why Choose Sportify Shop?</h2>
+					<div class="decorative-line"></div>
+				</div>
+				<div class="features-grid">
+					<div class="feature-card">
+						<div class="feature-icon">🚚</div>
+						<h3>Free Shipping</h3>
+						<p>Free shipping on orders over ₹5,000</p>
+					</div>
+					<div class="feature-card">
+						<div class="feature-icon">↩️</div>
+						<h3>Easy Returns</h3>
+						<p>30-day hassle-free return policy</p>
+					</div>
+					<div class="feature-card">
+						<div class="feature-icon">✓</div>
+						<h3>Quality Guaranteed</h3>
+						<p>Premium quality products only</p>
+					</div>
+					<div class="feature-card">
+						<div class="feature-icon">💳</div>
+						<h3>Secure Payment</h3>
+						<p>100% secure payment options</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="products-section" id="products">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title-large">Featured Sports Gear</h2>
+					<div class="decorative-line"></div>
+				</div>
+				<p class="section-description">Discover our handpicked collection of premium sports equipment and apparel</p>
+				<div id="productsGrid" class="products-grid" aria-live="polite"></div>
+			</div>
+		</section>
+
+		<section class="testimonials-section">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title-large">What Our Customers Say</h2>
+					<div class="decorative-line"></div>
+				</div>
+				<div class="testimonials-grid">
+					<div class="testimonial-card">
+						<div class="testimonial-stars">★★★★★</div>
+						<p class="testimonial-text">"Excellent quality products! Fast delivery and great customer service. Highly recommended!"</p>
+						<p class="testimonial-author">— Rajesh Kumar</p>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-stars">★★★★★</div>
+						<p class="testimonial-text">"Best sports shop online! Found everything I needed at great prices. Will shop again!"</p>
+						<p class="testimonial-author">— Priya Sharma</p>
+					</div>
+					<div class="testimonial-card">
+						<div class="testimonial-stars">★★★★★</div>
+						<p class="testimonial-text">"Amazing selection of sports gear. The quality is outstanding and the prices are fair."</p>
+						<p class="testimonial-author">— Amit Patel</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="about-section">
+			<div class="container">
+				<div class="about-content">
+					<div class="about-text">
+						<div class="section-header">
+							<h2 class="section-title-large" style="text-align: left; margin-bottom: 24px;">About Sportify Shop</h2>
+							<div class="decorative-line" style="margin-left: 0; margin-bottom: 24px;"></div>
+						</div>
+						<p>Welcome to Sportify Shop, your one-stop destination for all your sports equipment needs. We are passionate about sports and dedicated to providing you with the highest quality gear to help you achieve your fitness and athletic goals.</p>
+						<p>With years of experience in the sports industry, we curate only the best products from trusted brands. Whether you're a professional athlete or just starting your fitness journey, we have something for everyone.</p>
+						<p>Our mission is to make quality sports equipment accessible to everyone while providing exceptional customer service and support.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Cart Drawer removed in favor of dedicated cart page -->
+
+	<footer id="contact" class="site-footer">
+		<div class="container footer-inner">
+			<div class="footer-columns">
+				<div class="footer-col">
+					<h3 class="footer-title">Sportify Shop</h3>
+					<p class="footer-tagline">Quality gear for every game.</p>
+					<p class="footer-copy">&copy; <span id="year"></span> Sportify Shop. All rights reserved.</p>
+					<div class="footer-payments" aria-label="Payment methods">
+						<span class="pay-badge">VISA</span>
+						<span class="pay-badge">Mastercard</span>
+						<span class="pay-badge">UPI</span>
+						<span class="pay-badge">RuPay</span>
+					</div>
+				</div>
+				<nav class="footer-col" aria-label="Quick links">
+					<h4 class="footer-subtitle">Quick Links</h4>
+					<a href="index.html">Home</a>
+					<a href="#about">About Us</a>
+					<a href="#contact">Contact Us</a>
+					<a href="#products">Shop</a>
+				</nav>
+				<nav class="footer-col" aria-label="Support">
+					<h4 class="footer-subtitle">Support</h4>
+					<a href="#">FAQ</a>
+					<a href="#">Shipping</a>
+					<a href="#">Returns</a>
+					<a href="#">Privacy</a>
+				</nav>
+				<div class="footer-col">
+					<h4 class="footer-subtitle">Newsletter</h4>
+					<p class="footer-desc">Get exclusive offers and updates.</p>
+					<form class="newsletter" onsubmit="event.preventDefault(); showToast('Thanks for subscribing!'); this.reset();">
+						<input type="email" aria-label="Email address" placeholder="Enter your email" required>
+						<button type="submit">Subscribe</button>
+					</form>
+					<nav class="footer-social" aria-label="Social media">
+						<img class="footer-avatar" src="image/sid.jpg" alt="Siddharth Singh" />
+						<a class="social-btn instagram" href="https://www.instagram.com/sid_sez/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+							<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5A5.5 5.5 0 1 1 6.5 13 5.5 5.5 0 0 1 12 7.5m0 2A3.5 3.5 0 1 0 15.5 13 3.5 3.5 0 0 0 12 9.5M18 6.2a1.3 1.3 0 1 1-1.3 1.3A1.3 1.3 0 0 1 18 6.2Z"/></svg>
+							<span>Instagram</span>
+						</a>
+						<a class="social-btn linkedin" href="https://www.linkedin.com/in/siddharth-singh-sez" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+							<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-8.6 8.6H8.1V19h2.3zm-.1-3.4a1.35 1.35 0 1 0-1.35 1.35A1.35 1.35 0 0 0 10.3 8.2zM19 19h-2.3v-4.2c0-1-.02-2.28-1.39-2.28s-1.6 1.08-1.6 2.21V19H11.5v-7.4h2.2v1h.03a2.42 2.42 0 0 1 2.18-1.2c2.34 0 2.77 1.54 2.77 3.54z"/></svg>
+							<span>LinkedIn</span>
+						</a>
+						<a class="social-btn youtube" href="https://www.youtube.com/@siddharthsingh4550" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+							<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.6 7.2a2.7 2.7 0 0 0-1.9-1.9C18 5 12 5 12 5s-6 0-7.7.3A2.7 2.7 0 0 0 2.4 7.2 28.7 28.7 0 0 0 2.1 12a28.7 28.7 0 0 0 .3 4.8 2.7 2.7 0 0 0 1.9 1.9C6 19 12 19 12 19s6 0 7.7-.3a2.7 2.7 0 0 0 1.9-1.9 28.7 28.7 0 0 0 .3-4.8 28.7 28.7 0 0 0-.3-4.8M10 15.5V8.5l6 3.5z"/></svg>
+							<span>YouTube</span>
+						</a>
+						<a class="social-btn" href="mailto:siddharthwizard123@gmail.com" aria-label="Email Siddharth">
+							<span>📧 Email: siddharthwizard123@gmail.com</span>
+						</a>
+					</nav>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p class="footer-note">Made with passion for athletes and enthusiasts.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+	<script src="chatbot.js"></script>
+</body>
+</html>
+
