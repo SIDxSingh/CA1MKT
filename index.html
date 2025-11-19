@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6DGXXQQ49K"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -45,6 +43,7 @@
 			"https://www.youtube.com/@siddharthsingh4550"
 		]
 	}
+	
 	</script>
 	<link rel="stylesheet" href="styles.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,7 +51,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- Animated Background Decorations -->
+
 	<div class="bg-decoration">
 		<div class="floating-shape shape-1"></div>
 		<div class="floating-shape shape-2"></div>
@@ -228,8 +227,6 @@
 		</section>
 	</main>
 
-	<!-- Cart Drawer removed in favor of dedicated cart page -->
-
 	<footer id="contact" class="site-footer">
 		<div class="container footer-inner">
 			<div class="footer-columns">
@@ -261,8 +258,10 @@
 				<div class="footer-col">
 					<h4 class="footer-subtitle">Newsletter</h4>
 					<p class="footer-desc">Get exclusive offers and updates.</p>
-					<form class="newsletter" onsubmit="event.preventDefault(); showToast('Thanks for subscribing!'); this.reset();">
-						<input type="email" aria-label="Email address" placeholder="Enter your email" required>
+					<form class="newsletter" action="https://formsubmit.co/siddharthwizard123@gmail.com" method="POST">
+						<input type="hidden" name="_subject" value="New Sportify Shop newsletter subscriber">
+						<input type="hidden" name="_captcha" value="false">
+						<input type="email" name="subscriber_email" aria-label="Email address" placeholder="Enter your email" required>
 						<button type="submit">Subscribe</button>
 					</form>
 					<nav class="footer-social" aria-label="Social media">
